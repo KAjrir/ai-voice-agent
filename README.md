@@ -18,6 +18,10 @@ An AI agent that **calls a real phone number and has a live spoken conversation*
 4. The reply is streamed to **ElevenLabs** (multi-stream-input WebSocket, `eleven_flash_v2_5`), which returns μ-law audio that is sent straight back into the phone call.
 5. The caller can interrupt the agent; after the call the conversation audio can be converted with ffmpeg.
 
+## Architecture
+
+![Architecture](docs/architecture.png)
+
 ## Tech stack
 
 | Part | Technology |
